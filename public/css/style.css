@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.fototekst1{
+    display: flex;}
+.foto1{
+    display: flex;
+    justify-content: center;
+}
+.titel{
+    display: flex;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    border: 5px rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 10%;
+    height: 30px;
+    padding-top: 0px;
+    align-self: center;
+    text-decoration: none;
+}
+.nav-item {
+    align-items: center;
+    padding: 10px;
+}
+.nav-item:hover {
+    color: cornflowerblue;
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.line{
+    display: flex;
+    border: 5px;
+    border-style: solid;
+    height: 0,5%;
+    width: 90%;
+    background-color: black;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fototekst2{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-left: 0%;
+}
+.foto2{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    margin-right: 0%;
+}
