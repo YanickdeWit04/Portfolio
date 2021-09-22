@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/projecten', function () {
+    return view('nl.projecten');
+});
+
 Route::get('/overmij', function () {
     return view('nl.overmij');
 });

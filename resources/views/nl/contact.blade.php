@@ -8,16 +8,28 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<div>
-    <div class="titel">   
-    <h1 style="background-color:DodgerBlue;">Portfolio van Yanick de Wit</h1>
-        <div class="bar">
-        <a class="nav" href="/"><h1>home</h1></a>
-        <a class="nav" href="/overmij"><h1>over mij</h1></a>
-        <a class="nav" href="/cv"><h1>mijn cv</h1></a>
-        <a class="nav" href="/contact"><h1>contact</h1></a>
+<div class="test">
+        <div class="titel">
+            <h1>Yanick de Wit</h1>
+            <div class="navbar">
+                <a href="/">Home</a>
+                <a href="/overmij">over mij</a>
+                <a href="/cv">cv</a>
+                <a href="/contact">contact</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Projecten
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/portfolio">Deze Website</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>    
+        <div class="line">
+        </div>
+    </div>  
 </body>
 </html>
