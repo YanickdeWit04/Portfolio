@@ -14,10 +14,10 @@
         <div class="titel">
             <h1>Yanick de Wit</h1>
             <div class="navbar">
-                <a href="/">Home</a>
-                <a href="/overmij">over mij</a>
-                <a href="/cv">cv</a>
-                <a href="/contact">contact</a>
+                <a class="help" href="/">Home</a>
+                <a class="help" href="/overmij">over mij</a>
+                <a class="help" href="/cv">cv</a>
+                <a class="help" href="/contact">contact</a>
                 <div class="dropdown">
                     <button class="dropbtn">Projecten
                         <i class="fa fa-caret-down"></i>

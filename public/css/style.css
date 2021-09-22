@@ -1,6 +1,9 @@
 body {
     text-align: center;
     background-color: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .fototekst1 {
@@ -61,6 +64,9 @@ body {
 .navbar {
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .navbar a {
@@ -122,4 +128,15 @@ body {
 .titel {
     background-color: #333;
     margin: 0px;
+    color: white;
+}
+
+.test {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+.help {
+    margin-bottom: 14px;
 }
