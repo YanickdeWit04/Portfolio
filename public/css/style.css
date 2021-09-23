@@ -1,23 +1,27 @@
 body {
     text-align: center;
-    background-color: white;
+    background-color: #333;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    color: whitesmoke;
 }
 
-.fototekst1 {
-    display: flex;
-}
 
-.foto1 {
-    display: flex;
-    justify-content: center;
-}
+/* Style voor de Nav bar, de titel en eigenlijk alles wat in het groene stuk aan de bovenkant van website zit */
 
 .titel {
     display: flex;
     justify-content: space-around;
+    background-color: olivedrab;
+    margin: 0px;
+    color: white;
+}
+
+.top-bar {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 50px;
 }
 
 .nav {
@@ -47,23 +51,9 @@ body {
     width: 50%;
 }
 
-.fototekst2 {
-    display: flex;
-    justify-content: flex-end;
-    width: 50%;
-    margin-left: 0%;
-}
-
-.foto2 {
-    display: flex;
-    width: 50%;
-    justify-content: flex-start;
-    margin-right: 0%;
-}
-
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: olivedrab;
     display: flex;
     margin-top: 15px;
     text-align: center;
@@ -96,7 +86,7 @@ body {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: black;
 }
 
 .dropdown-content {
@@ -125,18 +115,56 @@ body {
     display: block;
 }
 
-.titel {
-    background-color: #333;
-    margin: 0px;
-    color: white;
-}
-
-.test {
-    width: 100%;
-    height: 30px;
-    margin-bottom: 50px;
-}
-
-.help {
+.margin-nav-bar {
     margin-bottom: 14px;
+}
+
+
+/* voorbeeld 2, Tekst en foto */
+
+.voorbeeldfoto2 {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.voorbeeldtekst2 {
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.voorbeeld2 {
+    display: flex;
+}
+
+
+/* voorbeeld 1, Tekst en foto */
+
+.voorbeeldfoto1 {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.voorbeeldtekst1 {
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.voorbeeld1 {
+    display: flex;
 }
