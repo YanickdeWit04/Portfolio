@@ -145,7 +145,8 @@ body {
 }
 
 
-/* voorbeeld 1, Tekst en foto */
+/* voorbeeld 1, Tekst en foto
+Word ook gebruikt voor de foto en het stukje tekst op de over mij pagina. */
 
 .voorbeeldfoto1 {
     display: flex;

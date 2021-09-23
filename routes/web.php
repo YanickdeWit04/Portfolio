@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/projecten', function () {
-    return view('nl.projecten');
+Route::get('/portfolio', function () {
+    return view('projecten.portfolio');
 });
 
 Route::get('/overmij', function () {

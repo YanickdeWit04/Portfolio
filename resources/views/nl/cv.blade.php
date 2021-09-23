@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<div class="test">
+<body>
+    <div class="top-bar">
         <div class="titel">
             <h1>Yanick de Wit</h1>
             <div class="navbar">
-                <a href="/">Home</a>
-                <a href="/overmij">over mij</a>
-                <a href="/cv">cv</a>
-                <a href="/contact">contact</a>
+                <a class="margin-nav-bar" href="/">Home</a>
+                <a class="margin-nav-bar" href="/overmij">over mij</a>
+                <a class="margin-nav-bar" href="/cv">cv</a>
+                <a class="margin-nav-bar" href="/contact">contact</a>
                 <div class="dropdown">
                     <button class="dropbtn">Projecten
                         <i class="fa fa-caret-down"></i>
@@ -27,8 +28,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="line">
         </div>
     </div>
 </body>
