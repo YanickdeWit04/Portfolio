@@ -1,5 +1,4 @@
 body {
-    text-align: center;
     background-color: #333;
     margin-top: 0px;
     margin-left: 0px;
@@ -16,6 +15,7 @@ body {
     background-color: olivedrab;
     margin: 0px;
     color: white;
+    text-align: center;
 }
 
 .top-bar {
@@ -168,4 +168,52 @@ Word ook gebruikt voor de foto en het stukje tekst op de over mij pagina. */
 
 .voorbeeld1 {
     display: flex;
+}
+
+
+/* CV pagina */
+
+
+/* box */
+
+.cvbox {
+    display: flex;
+    padding: 10px;
+}
+
+.cvboxlinks {
+    display: flex;
+    width: 25%;
+    border: 5px white;
+    border-style: solid;
+    height: 600px;
+}
+
+.cvboxrechts {
+    display: flex;
+    width: 75%;
+    border: 5px white;
+    border-style: solid;
+    height: 600px;
+}
+
+
+/* contact pagina */
+
+
+/* social media knoppen */
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* btc */
+
+.btc {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font: bold;
 }

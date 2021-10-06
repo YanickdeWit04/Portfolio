@@ -33,4 +33,24 @@ Route::get('/cv', function () {
     return view('nl.cv');
 });
 
+Route::get('/test', function () {
+    return view('uitleg.DayController');
+});
+
 Route::get('/row',[\App\Http\Controllers\RowController::class,'rowItems']);
+
+Route::get('/aboutme', function () {
+    return view('en.overmijen');
+});
+Route::get('/contact/en', function () {
+    return view('en.contacten');
+});
+Route::get('/cv/en', function () {
+    return view('en.cven');
+});
+Route::get('/testblade', function () {
+    return view('testblade');
+});
+Route::get('/form',[\App\Http\Controllers\FormController::class, 'index']);
+Route::post('/form',[\App\Http\Controllers\FormController::class, 'store']);
+Route::get('/btc',[\App\Http\Controllers\BTCController::class, 'showData']);

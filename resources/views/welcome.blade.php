@@ -2,11 +2,13 @@
 <html lang="nl">
 
 <head>
+    <script>setInterval(()=>{window.scrollTo(0, 0);}, 2000)</script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="E:\School\Software Developer\websites\Portfolio\public\images\icon.jpg">
 </head>
 <!---Dit is het hele groene gedeelte van de website, Dus de Navbar, de titel en de dropdown menu.--->
 <body>

@@ -1,5 +1,35 @@
-@extends('inhoudnl')
-@section('content')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<body>
+    <div class="top-bar">
+        <div class="titel">
+            <h1>Yanick de Wit</h1>
+            <div class="navbar">
+                <a class="margin-nav-bar" href="/">Home</a>
+                <a class="margin-nav-bar" href="/aboutme">about me</a>
+                <a class="margin-nav-bar" href="/cv/en">cv</a>
+                <a class="margin-nav-bar" href="/contact/en">contact me </a>
+                <div class="dropdown">
+                    <button class="dropbtn">Projecten
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/portfolio">Deze Website</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <div class="socials">
     <img src="https://i.guim.co.uk/img/media/02c5fc2b42591243e6292fc83f8a97ed78807b57/200_0_2000_1200/master/2000.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=00e22026b893334aecc1366ff69aa250" alt="reddit" style="width: 150px; height: 150px">
     <img src="https://s3-symbol-logo.tradingview.com/facebook--600.png" alt="facebook" style="width: 150px; height: 150px">
@@ -10,4 +40,3 @@
 </div>
 </body>
 </html>
-@endsection
