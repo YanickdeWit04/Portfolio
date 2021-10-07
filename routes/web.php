@@ -54,3 +54,4 @@ Route::get('/testblade', function () {
 Route::get('/form',[\App\Http\Controllers\FormController::class, 'index']);
 Route::post('/form',[\App\Http\Controllers\FormController::class, 'store']);
 Route::get('/btc',[\App\Http\Controllers\BTCController::class, 'showData']);
+Route::get('/taal',[\App\Http\Controllers\TaalController::class, 'taal']);

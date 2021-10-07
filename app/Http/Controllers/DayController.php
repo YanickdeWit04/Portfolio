@@ -27,6 +27,6 @@ class DayController extends Controller
             $tekst = 'Wat doe je nou achter je computer? Je hebt weekend!';
             //Wat doe je nou achter je computer? Je hebt WEEKEND!
         }
-        return view(DayController) ->with(['tekst'=>$tekst])
+        return view('DayController') ->with(['tekst'=>$tekst]);
     }
 }
