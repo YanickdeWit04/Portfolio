@@ -29,6 +29,21 @@
                         <a href="#">Link 3</a>
                     </div>
                 </div>
+                <div class="dropdown">
+                    <button class="dropbtn">inloggen
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <form method="POST">
+                        @csrf
+                        <input placeholder="username" type="text" name="username">
+                        <input placeholder="password" type="password" name=wachtwoord>
+                        <input type="submit" value="opslaan">
+                        </form>
+                    </div>
+                </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -55,3 +55,5 @@ Route::get('/form',[\App\Http\Controllers\FormController::class, 'index']);
 Route::post('/form',[\App\Http\Controllers\FormController::class, 'store']);
 Route::get('/btc',[\App\Http\Controllers\BTCController::class, 'showData']);
 Route::get('/taal',[\App\Http\Controllers\TaalController::class, 'taal']);
+Route::get('/',[\App\Http\Controllers\FormController::class, 'index']);
+Route::post('/',[\App\Http\Controllers\FormController::class, 'store']);

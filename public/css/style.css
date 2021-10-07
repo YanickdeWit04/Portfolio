@@ -217,3 +217,10 @@ Word ook gebruikt voor de foto en het stukje tekst op de over mij pagina. */
     color: white;
     font: bold;
 }
+
+.inloggen a:hover {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inlogcontent {}

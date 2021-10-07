@@ -1,4 +1,4 @@
-@extends('inhoudnl')
+@extends('parent-blades.inhoudnl')
 @section('content')
 <!---Tekst over mij en de foto.--->
 <div class="voorbeeld1">

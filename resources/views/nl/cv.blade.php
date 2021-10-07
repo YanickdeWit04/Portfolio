@@ -1,4 +1,4 @@
-@extends('inhoudnl')
+@extends('parent-blades.inhoudnl')
 @section('content')
 <!-- cv box -->
 <div class="cvbox">

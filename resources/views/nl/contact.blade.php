@@ -1,4 +1,4 @@
-@extends('inhoudnl')
+@extends('parent-blades.inhoudnl')
 @section('content')
 <div class="socials">
     <img src="https://i.guim.co.uk/img/media/02c5fc2b42591243e6292fc83f8a97ed78807b57/200_0_2000_1200/master/2000.jpg?width=445&quality=45&auto=format&fit=max&dpr=2&s=00e22026b893334aecc1366ff69aa250" alt="reddit" style="width: 150px; height: 150px">
