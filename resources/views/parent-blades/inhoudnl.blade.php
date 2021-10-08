@@ -34,7 +34,7 @@
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <form method="POST">
+                        <form action="/" method="POST">
                         @csrf
                         <input placeholder="username" type="text" name="username">
                         <input placeholder="password" type="password" name=wachtwoord>
