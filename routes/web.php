@@ -57,3 +57,11 @@ Route::get('/btc',[\App\Http\Controllers\BTCController::class, 'showData']);
 Route::get('/taal',[\App\Http\Controllers\TaalController::class, 'taal']);
 Route::get('/',[\App\Http\Controllers\FormController::class, 'index']);
 Route::post('/',[\App\Http\Controllers\FormController::class, 'store']);
+
+Route::get('/en', function () {
+    return view('en.welcomeen');
+});
+
+Route::get('/portfolio/en', function () {
+    return view('en.portfolioen');
+});

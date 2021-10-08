@@ -15,25 +15,21 @@
         <div class="titel">
             <h1>Yanick de Wit</h1>
             <div class="navbar">
-                <a class="margin-nav-bar" href="/">Home</a>
-                <a class="margin-nav-bar" href="/overmij">over mij</a>
-                <a class="margin-nav-bar" href="/cv">cv</a>
-                <a class="margin-nav-bar" href="/contact">contact</a>
+                <a class="margin-nav-bar" href="/en">home</a>
+                <a class="margin-nav-bar" href="/aboutme">about me</a>
+                <a class="margin-nav-bar" href="/cv/en">cv</a>
+                <a class="margin-nav-bar" href="/contact/en">contact</a>
                 <div class="dropdown">
-                    <button class="dropbtn">Projecten
+                    <button class="dropbtn">projects
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="/portfolio">Deze Website</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <a href="/portfolio/en">this Website</a>
+                        <a href="#">placeholder #1</a>
+                        <a href="#">placeholder #2</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 @yield('contenten')
-
-</body>
-
-</html>
