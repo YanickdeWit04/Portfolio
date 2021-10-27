@@ -57,6 +57,9 @@ Route::get('/btc',[\App\Http\Controllers\BTCController::class, 'showData']);
 Route::get('/taal',[\App\Http\Controllers\TaalController::class, 'taal']);
 Route::get('/',[\App\Http\Controllers\FormController::class, 'index']);
 Route::post('/',[\App\Http\Controllers\FormController::class, 'store']);
+Route::post('/zettaal',[\App\Http\Controllers\TaalController::class, 'zettaal']);
+Route::get('/tafel',[\App\Http\Controllers\TafelController::class, 'index']);
+Route::post('/tafel',[\App\Http\Controllers\TafelController::class, 'store']);
 
 Route::get('/en', function () {
     return view('en.welcomeen');
@@ -64,4 +67,8 @@ Route::get('/en', function () {
 
 Route::get('/portfolio/en', function () {
     return view('en.portfolioen');
+});
+
+Route::get('/tafel', function () {
+    return view('tafel');
 });

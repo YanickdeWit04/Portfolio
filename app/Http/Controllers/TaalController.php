@@ -8,13 +8,18 @@ use function GuzzleHttp\Promise\all;
 
 class TaalController extends Controller
 {
-    public function Taal(Request $request) 
+    public function zettaal(Request $request) 
     {
-        $value = $request->session()->get('key');
-        $request->session()->put('key', 'value');
-        session(['key' => 'value']);
-        var_dump($request, $value);
+        dd($request->all());
+        $keuze = Session::get('keuze');
+            if($keuze == 'english');
+                return view('en.welcome');
+            if($keuze == 'nederlands'){;
+                return view('welcome');
+            }    
+    }
+    public function taal(){
         return view('test.taal');
     }
-    
+
 }
