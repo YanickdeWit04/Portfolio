@@ -72,3 +72,9 @@ Route::get('/portfolio/en', function () {
 Route::get('/tafel', function () {
     return view('tafel');
 });
+Route::get('/home/nl=nl', function () {
+    return view('nl.home');
+});
+Route::get('/home/en=en', function () {
+    return view('en.home');
+});
