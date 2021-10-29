@@ -8,8 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1 class="test1">Choose your language.</h1>
+    <div class="wrapper">
+        <div class="typing-demo">
+          Choose your language.
+        </div>
     </div>
     </div class="test">
         <button style="width: 204px" class="btn"><a class="a" href='/home/nl=nl' alt='Broken Link'>Dutch</button>

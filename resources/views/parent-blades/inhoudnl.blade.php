@@ -15,7 +15,7 @@
         <div class="titel">
             <h1>Yanick de Wit</h1>
             <div class="navbar">
-                <a class="margin-nav-bar" href="/">Home</a>
+                <a class="margin-nav-bar" href="/home/nl=nl">Home</a>
                 <a class="margin-nav-bar" href="/overmij">over mij</a>
                 <a class="margin-nav-bar" href="/cv">cv</a>
                 <a class="margin-nav-bar" href="/contact">contact</a>
@@ -27,21 +27,6 @@
                         <a href="/portfolio">Deze Website</a>
                         <a href="#">Link 2</a>
                         <a href="#">Link 3</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="dropbtn">inloggen
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <form action="/" method="POST">
-                        @csrf
-                        <input placeholder="username" type="text" name="username">
-                        <input placeholder="password" type="password" name=wachtwoord>
-                        <input type="submit" value="opslaan">
-                        </form>
-                    </div>
-                </div>
                     </div>
                 </div>
             </div>

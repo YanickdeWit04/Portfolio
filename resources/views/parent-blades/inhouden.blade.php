@@ -15,7 +15,7 @@
         <div class="titel">
             <h1>Yanick de Wit</h1>
             <div class="navbar">
-                <a class="margin-nav-bar" href="/en">home</a>
+                <a class="margin-nav-bar" href="/home/en=en">home</a>
                 <a class="margin-nav-bar" href="/aboutme">about me</a>
                 <a class="margin-nav-bar" href="/cv/en">cv</a>
                 <a class="margin-nav-bar" href="/contact/en">contact</a>
