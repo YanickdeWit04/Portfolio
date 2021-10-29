@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Futura";
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -243,7 +243,6 @@ Word ook gebruikt voor de foto en het stukje tekst op de over mij pagina. */
     justify-content: flex-end;
 }
 
-.inlogcontent {}
 
 .ez {
     color: white;
