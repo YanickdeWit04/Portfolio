@@ -249,3 +249,11 @@ Word ook gebruikt voor de foto en het stukje tekst op de over mij pagina. */
     color: white;
     font-size: large;
 }
+.ennl{
+    display: flex;
+    width: 50%;
+    color: violet;
+    border-style: solid;
+    border: solid;
+    border-radius: 10%;
+}
