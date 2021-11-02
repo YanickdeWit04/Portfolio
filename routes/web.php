@@ -19,6 +19,9 @@ use Illuminate\Support\Facades\Route;
     Route::get('/home/en=en', function () {
         return view('en.welcomeen');
     });
+    Route::get('/projectsgrid', function () {
+        return view('en.griden');
+    });
 
     Route::get('/portfolio/en', function () {
         return view('en.portfolioen');
@@ -38,6 +41,9 @@ use Illuminate\Support\Facades\Route;
 
     Route::get('/portfolio', function () {
         return view('nl.portfolio');
+    });
+    Route::get('/projectengrid', function () {
+        return view('nl.grid');
     });
 
     Route::get('/overmij', function () {

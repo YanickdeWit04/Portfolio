@@ -17,7 +17,7 @@
         <div class="titel">
             <h1>Yanick de Wit</h1>
             <div class="navbar">
-                <a class="margin-nav-bar" href="/home/nl=nl">Home</a>
+                <a class="margin-nav-bar" href="/home/nl=nl">home</a>
                 <a class="margin-nav-bar" href="/overmij">over mij</a>
                 <a class="margin-nav-bar" href="/cv">cv</a>
                 <a class="margin-nav-bar" href="/contact">contact</a>
@@ -26,7 +26,8 @@
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="/portfolio">Deze Website</a>
+                        <a href="/projectengrid">alle projecten</a>
+                        <a href="/portfolio">deze Website</a>
                         <a href="#">Link 2</a>
                         <a href="#">Link 3</a>
                     </div>
@@ -34,8 +35,6 @@
             </div>
         </div>
     </div>
-</body>
-<body>
     <div class="mobile">
         <input type="checkbox" id="check">
         <label for="check">
@@ -43,34 +42,26 @@
           <i class="fas fa-times" id="cancel"></i>
         </label>
         <div class="sidebar">
-          <header>My Menu</header>
-          <a href="#" class="active">
+          <header>Yanick de Wit</header>
+          <a href="/home/nl=nl" class="active">
             <i class="fas fa-qrcode"></i>
-            <span>Dashboard</span>
+            <span>home</span>
           </a>
-          <a href="#">
+          <a href="/overmij">
             <i class="fas fa-link"></i>
-            <span>Shortcuts</span>
+            <span>over mij</span>
           </a>
-          <a href="#">
+          <a href="/cv">
             <i class="fas fa-stream"></i>
-            <span>Overview</span>
+            <span>cv</span>
           </a>
-          <a href="#">
+          <a href="/contact">
              <i class="fas fa-calendar"></i>
-            <span>Events</span>
+            <span>contact</span>
           </a>
-          <a href="#">
+          <a href="/projectengrid">
             <i class="far fa-question-circle"></i>
-            <span>About</span>
-          </a>
-          <a href="#">
-            <i class="fas fa-sliders-h"></i>
-            <span>Services</span>
-          </a>
-          <a href="#">
-            <i class="far fa-envelope"></i>
-            <span>Contact</span>
+            <span>projecten</span>
           </a>
         </div>
     </body>
