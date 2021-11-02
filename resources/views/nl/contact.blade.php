@@ -7,6 +7,7 @@
       <li>
         <a href="https://www.facebook.com/profile.php?id=100009652094387">
           <i class="fa fa-facebook" aria-hidden="true"></i>
+          <link rel="icon" href="../images/icon.jpg">
           <span> - Facebook</span>
         </a>
       </li>
