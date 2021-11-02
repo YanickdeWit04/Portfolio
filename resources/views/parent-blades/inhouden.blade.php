@@ -25,7 +25,8 @@
                         <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content">
-                        <a href="/portfolio/en">this Website</a>
+                        <a href="/projectsgrid">all projects</a>
+                        <a href="/portfolio/en">this website</a>
                         <a href="#">placeholder #1</a>
                         <a href="#">placeholder #2</a>
                     </div>
