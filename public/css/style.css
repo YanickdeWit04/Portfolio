@@ -24,12 +24,7 @@ body {
 }
 
 
-/* Style voor de Nav bar, de titel en eigenlijk alles wat in het groene stuk aan de bovenkant van website zit */
-@media screen and (min-width: 480px) {
-    #titel {width: 200px; float: left;}
-    #top-bar {margin-left: 216px;}
-  }
-
+/* Style voor de Nav bar, de titel en eigenlijk alles wat in het blauwe stuk aan de bovenkant van website zit */
 .titel {
     display: flex;
     justify-content: space-around;
@@ -142,306 +137,7 @@ body {
 .margin-nav-bar {
     margin-bottom: 14px;
 }
-
-
-/* voorbeeld 2, Tekst en foto */
-
-.voorbeeldfoto2 {
-    display: flex;
-    justify-content: left;
-    padding: 5px;
-    width: 50%;
-    margin-left: 10px;
-    margin-top: 100px;
-}
-
-.voorbeeldtekst2 {
-    display: flex;
-    justify-content: right;
-    padding: 5px;
-    width: 50%;
-    margin-right: 10px;
-    margin-top: 100px;
-}
-
-.voorbeeld2 {
-    display: flex;
-}
-
-
-/* voorbeeld 1, Tekst en foto
-Word ook gebruikt voor de foto en het stukje tekst op de over mij pagina. */
-
-.voorbeeldfoto1 {
-    display: flex;
-    justify-content: left;
-    padding: 5px;
-    width: 50%;
-    margin-left: 10px;
-    margin-top: 100px;
-}
-
-.voorbeeldtekst1 {
-    display: flex;
-    justify-content: right;
-    padding: 5px;
-    width: 50%;
-    margin-right: 10px;
-    margin-top: 100px;
-}
-
-.voorbeeld1 {
-    display: flex;
-}
-
-
-/* CV pagina */
-
-
-/* box */
-
-.cvbox {
-    display: flex;
-    padding: 10px;
-}
-
-.cvboxlinks {
-    display: flex;
-    width: 25%;
-    border: 5px white;
-    border-style: solid;
-    height: 600px;
-}
-
-.cvboxrechts {
-    display: flex;
-    width: 75%;
-    border: 5px white;
-    border-style: solid;
-    height: 600px;
-}
-
-
-/* contact pagina */
-
-
-/* social media knoppen */
-
-.socials {
-    display: flex;
-    justify-content: center;
-}
-
-
-/* btc */
-
-.btc {
-    display: flex;
-    justify-content: center;
-    color: white;
-    font: bold;
-}
-
-.inloggen a:hover {
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-.ez {
-    color: white;
-    font-size: large;
-}
-.ennl{
-    display: flex;
-    width: 50%;
-    color: violet;
-    border-style: solid;
-    border: solid;
-    border-radius: 10%;
-}
-
-/* Dit is een stuk waar alle test code in komt */
-
-body {
-    margin:0;
-    padding:0;
-    font-family: 'Roboto Condensed', sans-serif;
-
-  }
-
-  ul {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
-    display:flex;
-    margin:0;
-    padding:0;
-  }
-
-  ul li {
-    list-style:none;
-    margin:0 5px;
-  }
-
-  ul li a .fa {
-    font-size: 40px;
-    color: #262626;
-    line-height:80px;
-    transition: .5s;
-    padding-right: 14px;
-  }
-
-  ul li a span {
-    padding:0;
-    margin:0;
-    position:absolute;
-    top: 30px;
-    color: #262626;
-    letter-spacing: 4px;
-    transition: .5s;
-  }
-
-  ul li a {
-    text-decoration: none;
-    display:absolute;
-    display:block;
-    width:210px;
-    height:80px;
-    background: #fff;
-    text-align:left;
-    padding-left: 20px;
-    transform: rotate(-30deg) skew(25deg) translate(0,0);
-    transition:.5s;
-    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
-  }
-  ul li a:before {
-    content: '';
-    position: absolute;
-    top:10px;
-    left:-20px;
-    height:100%;
-    width:20px;
-    background: #b1b1b1;
-    transform: .5s;
-    transform: rotate(0deg) skewY(-45deg);
-  }
-  ul li a:after {
-    content: '';
-    position: absolute;
-    bottom:-20px;
-    left:-10px;
-    height:20px;
-    width:100%;
-    background: #b1b1b1;
-    transform: .5s;
-    transform: rotate(0deg) skewX(-45deg);
-  }
-
-  ul li a:hover {
-    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
-    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
-  }
-
-  ul li:hover .fa {
-    color:#fff;
-  }
-
-  ul li:hover span {
-    color:#fff;
-  }
-
-  ul li:hover:nth-child(1) a{
-    background: #3b5998;
-  }
-  ul li:hover:nth-child(1) a:before{
-    background: #365492;
-  }
-  ul li:hover:nth-child(1) a:after{
-    background: #4a69ad;
-  }
-
-  ul li:hover:nth-child(2) a{
-    background: #00aced;
-  }
-  ul li:hover:nth-child(2) a:before{
-    background: #097aa5;
-  }
-  ul li:hover:nth-child(2) a:after{
-    background: #53b9e0;
-  }
-
-  ul li:hover:nth-child(3) a{
-    background: #dd4b39;
-  }
-  ul li:hover:nth-child(3) a:before{
-    background: #b33a2b;
-  }
-  ul li:hover:nth-child(3) a:after{
-    background: #e66a5a;
-  }
-
-  ul li:hover:nth-child(4) a{
-    background: #e4405f;
-  }
-  ul li:hover:nth-child(4) a:before{
-    background: #d81c3f;
-  }
-  ul li:hover:nth-child(4) a:after{
-    background: #e46880;
-  }
-
-  ul li:hover:nth-child(5) a{
-    background: #041f5a;
-  }
-  ul li:hover:nth-child(5) a:before{
-    background: #080336;
-  }
-  ul li:hover:nth-child(5) a:after{
-    background: #182066;
-  }
-
-  ul li:hover:nth-child(6) a{
-    background: #464646;
-  }
-  ul li:hover:nth-child(6) a:before{
-    background: #383838;
-  }
-  ul li:hover:nth-child(6) a:after{
-    background: #5a5a5a;
-  }
-
-.wrapper {
-    height: 100vh;
-    /*This part is important for centering*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.typing-demo {
-    width: 22ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-}
-
-@keyframes typing {
-    from {
-      width: 50
-    }
-}
-
-@keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
-  @media (min-width: 640px) {
+@media (min-width: 640px) {
     .mobile{
         display: none;
     }
@@ -641,3 +337,290 @@ body {
         visibility: visible;
       }
 }
+
+/* voorbeeld 2, Tekst en foto */
+
+.voorbeeldfoto2 {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.voorbeeldtekst2 {
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.voorbeeld2 {
+    display: flex;
+}
+
+
+/* voorbeeld 1, Tekst en foto Word ook gebruikt voor de foto en het stukje tekst op de over mij pagina. */
+
+.voorbeeldfoto1 {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+
+.voorbeeldtekst1 {
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.voorbeeld1 {
+    display: flex;
+}
+
+
+/* CV pagina */
+
+.cvbox {
+    display: flex;
+    padding: 10px;
+}
+
+.cvboxlinks {
+    display: flex;
+    width: 25%;
+    border: 5px white;
+    border-style: solid;
+    height: 600px;
+}
+
+.cvboxrechts {
+    display: flex;
+    width: 75%;
+    border: 5px white;
+    border-style: solid;
+    height: 600px;
+}
+
+/* contact pagina */
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto Condensed', sans-serif;
+
+  }
+
+  ul {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    display:flex;
+    margin:0;
+    padding:0;
+  }
+
+  ul li {
+    list-style:none;
+    margin:0 5px;
+  }
+
+  ul li a .fa {
+    font-size: 40px;
+    color: #262626;
+    line-height:80px;
+    transition: .5s;
+    padding-right: 14px;
+  }
+
+  ul li a span {
+    padding:0;
+    margin:0;
+    position:absolute;
+    top: 30px;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: .5s;
+  }
+
+  ul li a {
+    text-decoration: none;
+    display:absolute;
+    display:block;
+    width:210px;
+    height:80px;
+    background: #fff;
+    text-align:left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+  }
+  ul li a:before {
+    content: '';
+    position: absolute;
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewY(-45deg);
+  }
+  ul li a:after {
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    background: #b1b1b1;
+    transform: .5s;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+
+  ul li a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+  }
+
+  ul li:hover .fa {
+    color:#fff;
+  }
+
+  ul li:hover span {
+    color:#fff;
+  }
+
+  ul li:hover:nth-child(1) a{
+    background: #3b5998;
+  }
+  ul li:hover:nth-child(1) a:before{
+    background: #365492;
+  }
+  ul li:hover:nth-child(1) a:after{
+    background: #4a69ad;
+  }
+
+  ul li:hover:nth-child(2) a{
+    background: #00aced;
+  }
+  ul li:hover:nth-child(2) a:before{
+    background: #097aa5;
+  }
+  ul li:hover:nth-child(2) a:after{
+    background: #53b9e0;
+  }
+
+  ul li:hover:nth-child(3) a{
+    background: #dd4b39;
+  }
+  ul li:hover:nth-child(3) a:before{
+    background: #b33a2b;
+  }
+  ul li:hover:nth-child(3) a:after{
+    background: #e66a5a;
+  }
+
+  ul li:hover:nth-child(4) a{
+    background: #e4405f;
+  }
+  ul li:hover:nth-child(4) a:before{
+    background: #d81c3f;
+  }
+  ul li:hover:nth-child(4) a:after{
+    background: #e46880;
+  }
+
+  ul li:hover:nth-child(5) a{
+    background: #041f5a;
+  }
+  ul li:hover:nth-child(5) a:before{
+    background: #080336;
+  }
+  ul li:hover:nth-child(5) a:after{
+    background: #182066;
+  }
+
+  ul li:hover:nth-child(6) a{
+    background: #464646;
+  }
+  ul li:hover:nth-child(6) a:before{
+    background: #383838;
+  }
+  ul li:hover:nth-child(6) a:after{
+    background: #5a5a5a;
+  }
+
+
+
+/* btc */
+
+.btc {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font: bold;
+}
+
+.inloggen a:hover {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.ez {
+    color: white;
+    font-size: large;
+}
+.ennl{
+    display: flex;
+    width: 50%;
+    color: violet;
+    border-style: solid;
+    border: solid;
+    border-radius: 10%;
+}
+
+/* Typen de tekst op de eerste pagina waar je de taal kiest */
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typing-demo {
+    width: 22ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+      width: 50
+    }
+}
+
+@keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+/* Hier komt alle tijdelijke test code terecht */
+
