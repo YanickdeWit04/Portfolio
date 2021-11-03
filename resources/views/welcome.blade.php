@@ -16,7 +16,7 @@
     </div>
     </div class="test">
         <button style="width: 204px" class="btn"><a class="a" href='https://steansupport.nl/home/nl=nl' alt='Broken Link'>Dutch</button>
-        <button class="btn"><a class="a" href='https://steansupport.nl/home/nl=nl' alt='Broken Link'>English</a></button>
+        <button class="btn"><a class="a" href='https://steansupport.nl/home/en=en' alt='Broken Link'>English</a></button>
     </div>
 </body>
 </html>
