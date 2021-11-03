@@ -141,6 +141,10 @@ body {
     .mobile{
         display: none;
     }
+    .titelh1{
+        text-decoration: none;
+        color: white;
+    }
     .titel {
         display: flex;
         justify-content: space-around;
@@ -340,53 +344,92 @@ body {
 
 /* voorbeeld 2, Tekst en foto */
 
-.voorbeeldfoto2 {
-    display: flex;
-    justify-content: left;
-    padding: 5px;
-    width: 50%;
-    margin-left: 10px;
-    margin-top: 100px;
-}
+@media only screen and (max-width: 639px){
+    .voorbeeldfoto2 {
+        display: none;
+        justify-content: left;
+        padding: 5px;
+        width: 50%;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
 
-.voorbeeldtekst2 {
-    display: flex;
-    justify-content: right;
-    padding: 5px;
-    width: 50%;
-    margin-right: 10px;
-    margin-top: 100px;
-}
+    .voorbeeldtekst2 {
+        display: none;
+        justify-content: right;
+        padding: 5px;
+        width: 50%;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
 
-.voorbeeld2 {
-    display: flex;
+    .voorbeeld2 {
+        display: none;
+    }
+    .mobile1 {
+        display: flex;
+        flex-direction: column;
+    }
 }
+@media only screen and (min-width: 640px){
+    .voorbeeldfoto2 {
+        display: flex;
+        justify-content: left;
+        padding: 5px;
+        width: 50%;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
 
+    .voorbeeldtekst2 {
+        display: flex;
+        justify-content: right;
+        padding: 5px;
+        width: 50%;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+
+    .voorbeeld2 {
+        display: flex;
+    }
+    .mobile1 {
+        display: none;
+    }
+}
 
 /* voorbeeld 1, Tekst en foto Word ook gebruikt voor de foto en het stukje tekst op de over mij pagina. */
+@media only screen and (max-width: 639px){
+    .voorbeeld1 {
+        display: flex;
+        flex-direction: column;
 
-.voorbeeldfoto1 {
-    display: flex;
-    justify-content: left;
-    padding: 5px;
-    width: 50%;
-    margin-left: 10px;
-    margin-top: 100px;
+    }
 }
+@media only screen and (min-width: 640px){
+    .voorbeeldfoto1 {
+        display: flex;
+        justify-content: left;
+        padding: 5px;
+        width: 50%;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
 
-.voorbeeldtekst1 {
-    display: flex;
-    justify-content: right;
-    padding: 5px;
-    width: 50%;
-    margin-right: 10px;
-    margin-top: 100px;
+    .voorbeeldtekst1 {
+        display: flex;
+        justify-content: right;
+        padding: 5px;
+        width: 50%;
+        margin-right: 10px;
+        margin-top: 100px;
+    }
+
+    .voorbeeld1 {
+        display: flex;
+    }
+
 }
-
-.voorbeeld1 {
-    display: flex;
-}
-
 
 /* CV pagina */
 
