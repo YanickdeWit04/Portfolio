@@ -412,7 +412,10 @@ body {
 }
 
 /* contact pagina */
-body {
+
+@media only screen and (min-width: 640px){
+
+    body {
     margin:0;
     padding:0;
     font-family: 'Roboto Condensed', sans-serif;
@@ -559,8 +562,8 @@ body {
   }
   ul li:hover:nth-child(6) a:after{
     background: #5a5a5a;
-  }
-@media only screen and (max-width: 680px) {
+  }}
+@media only screen and (max-width: 639px) {
     body {
         margin:0;
         padding:0;
