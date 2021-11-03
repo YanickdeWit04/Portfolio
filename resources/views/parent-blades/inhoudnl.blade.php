@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="..\">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <script>if(location.href.contains("newdeveloper.nl")) location.href = "https://steansupport.nl/"</script>
+    <script>if(location.href.includes("newdeveloper.nl")) location.href = "https://steansupport.nl/"</script>
 </head>
 <body>
    <!---Dit is het hele groene gedeelte van de website, Dus de Navbar, de titel en de dropdown menu.--->
