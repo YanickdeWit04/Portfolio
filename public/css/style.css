@@ -621,47 +621,32 @@ body {
       border-color: transparent
     }
   }
-
 @media (min-width: 640px){
-.grid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
+    .grids {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 95%;
+        justify-content: center;
+        margin: auto;
     }
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+
+    .itemgrid {
+        max-width: 33%;
+        min-width: 20%;
     }
 }
 @media (max-width: 639px){
-.grid{
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
+    .grids {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: center;
+        margin: auto;
     }
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+
+    .itemgrid {
+        max-width: 100%;
     }
 }
-
-/* Hier komt alle tijdelijke test code terecht */
-.grid{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
-
