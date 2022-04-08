@@ -30,8 +30,8 @@
                     <div class="dropdown-content">
                         <a href="/projectengrid">alle projecten</a>
                         <a href="/portfolio">deze Website</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <a href="/mindcraft/nl">mindcraft</a>
+                        <a href="/pecunia/nl">pecunia</a>
                     </div>
                 </div>
             </div>

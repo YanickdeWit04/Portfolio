@@ -61,6 +61,12 @@ use Illuminate\Support\Facades\Route;
     Route::get('/home/nl=nl', function () {
         return view('nl.home');
     });
+    Route::get('/pecunia/nl', function () {
+    return view('nl.pecunia');
+    });
+    Route::get('/mindcraft/nl', function () {
+    return view('nl.mastermind');
+    });
 
 // Alle Controllers
 
