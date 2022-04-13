@@ -58,8 +58,8 @@ use Illuminate\Support\Facades\Route;
         return view('nl.cv');
     });
 
-    Route::get('/home/nl=nl', function () {
-        return view('nl.home');
+    Route::get('/home', function () {
+        return view('slider');
     });
     Route::get('/pecunia/nl', function () {
     return view('nl.pecunia');
