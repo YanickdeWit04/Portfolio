@@ -14,59 +14,62 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-// Alle engelse routes
+// // Alle engelse routes
 
-    Route::get('/home/en=en', function () {
-        return view('en.welcomeen');
-    });
-    Route::get('/projectsgrid', function () {
-        return view('en.griden');
-    });
+//     Route::get('/home/en=en', function () {
+//         return view('en.welcomeen');
+//     });
+//     Route::get('/projectsgrid', function () {
+//         return view('en.griden');
+//     });
 
-    Route::get('/portfolio/en', function () {
-        return view('en.portfolioen');
-    });
+//     Route::get('/portfolio/en', function () {
+//         return view('en.portfolioen');
+//     });
 
-    Route::get('/aboutme', function () {
-        return view('en.overmijen');
-    });
-    Route::get('/contact/en', function () {
-        return view('en.contacten');
-    });
-    Route::get('/cv/en', function () {
-        return view('en.cven');
-    });
+//     Route::get('/aboutme', function () {
+//         return view('en.overmijen');
+//     });
+//     Route::get('/contact/en', function () {
+//         return view('en.contacten');
+//     });
+//     Route::get('/cv/en', function () {
+//         return view('en.cven');
+//     });
 
-// Alle Nederlandse routes
+// // Alle Nederlandse routes
 
-    Route::get('/portfolio', function () {
-        return view('nl.portfolio');
-    });
-    Route::get('/projectengrid', function () {
-        return view('nl.grid');
-    });
+//     Route::get('/portfolio', function () {
+//         return view('nl.portfolio');
+//     });
+//     Route::get('/projectengrid', function () {
+//         return view('nl.grid');
+//     });
 
-    Route::get('/overmij', function () {
-        return view('nl.overmij');
-    });
+//     Route::get('/overmij', function () {
+//         return view('nl.overmij');
+//     });
 
-    Route::get('/contact', function () {
-        return view('nl.contact');
-    });
+//     Route::get('/contact', function () {
+//         return view('nl.contact');
+//     });
 
-    Route::get('/cv', function () {
-        return view('nl.cv');
-    });
+//     Route::get('/cv', function () {
+//         return view('nl.cv');
+//     });
 
-    Route::get('/home', function () {
-        return view('slider');
-    });
-    Route::get('/pecunia/nl', function () {
-    return view('nl.pecunia');
-    });
-    Route::get('/mindcraft/nl', function () {
-    return view('nl.mastermind');
-    });
+//     Route::get('/home', function () {
+//         return view('slider');
+//     });
+//     Route::get('/pecunia/nl', function () {
+//     return view('nl.pecunia');
+//     });
+//     Route::get('/mindcraft/nl', function () {
+//     return view('nl.mastermind');
+//     });
+//     Route::get('/new', function () {
+//     return view('newhome');
+//     });
 
 // Alle Controllers
 
@@ -79,7 +82,6 @@ use Illuminate\Support\Facades\Route;
     Route::post('/zettaal',[\App\Http\Controllers\TaalController::class, 'zettaal']);
     Route::get('/tafel',[\App\Http\Controllers\TafelController::class, 'index']);
     Route::post('/tafel',[\App\Http\Controllers\TafelController::class, 'store']);
-    Route::get('/row',[\App\Http\Controllers\RowController::class,'rowItems']);
 
     Route::get('/test', function () {
         return view('uitleg.DayController');
