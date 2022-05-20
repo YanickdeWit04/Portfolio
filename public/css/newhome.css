@@ -12,6 +12,9 @@
     font-family: Futura-heavy;
     src: url(../fonts/heavy.ttf);
 }
+.navbar-toggler{
+    color: white;
+}
 body{
     margin: 0%;
     color: white;

@@ -89,8 +89,8 @@
                             <h4 class="card-title">MindCraft</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Github</a>
-                                <a href="#" class="btn btn-success">Live versie</a>
+                                <a href="https://github.com/YanickdeWit04/MindCraft" class="btn btn-success">Github</a>
+                                <a href="#" class="btn btn-success">Live versie niet beschikbaar</a>
                             </div>
                         </div>
                     </div>
@@ -103,8 +103,8 @@
                             <h4 class="card-title">Pecunia - Wallet</h4>
                             <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Github</a>
-                                <a href="#" class="btn btn-success">Live versie</a>
+                                <a href="https://github.com/YanickdeWit04/Pecunia" class="btn btn-success">Github</a>
+                                <a href="#" class="btn btn-success">Live versie niet beschikbaar</a>
                             </div>
                         </div>
                     </div>
