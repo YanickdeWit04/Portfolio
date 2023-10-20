@@ -15,6 +15,10 @@
 .navbar-toggler{
     color: white;
 }
+.navbar-toggler-icon{
+    color: white;
+    border: solid;
+}
 body{
     margin: 0%;
     color: white;

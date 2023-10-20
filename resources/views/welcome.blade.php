@@ -30,10 +30,10 @@
                         <a style="color: Gray" class="nav-link" href="#projects">Projecten</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: Gray" class="nav-link" href="#portfolio">CV</a>
+                        <a style="color: Gray" class="nav-link" href="#">CV</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: Gray" class="nav-link" href="#contact">Contact</a>
+                        <a style="color: Gray" class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
 
@@ -65,13 +65,13 @@
                         <div class="col-md-6">
                             <ul>
                                 <li><strong>Naam:</strong> Yanick de Wit</li>
-                                <li><strong>Leeftijd:</strong> 17</li>
+                                <li><strong>Leeftijd:</strong> 19</li>
                                 <li><strong>Hobbies:</strong> Simracen, gamen, autosport, uit gaan met vrienden.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="row mt-3">
-                        <p> Mijn naam is Yanick de Wit en ik ben een vrolijk jonge van 17 jaar. Ik ben geboren in het kleine stadje Genemuiden in Overijssel. Ik woon nog steeds hier samen met mijn vader, moeder en broertje van 14. Sinds jonge leeftijd mocht ik graag bezig zijn met computers en software en zo kom ik ook op de opleiding Software Developer bij LandstedeMBO Zwolle. Mijn hobbies zijn gamen, met vrienden uitgaan/stappen, auto's, autosport en computers/ICT. Simracen vind ik ook erg mooi om te doen en zo speel ik dan ook vaak toernooien in games zoals Assetto Corsa Competizione. Verder werk ik ook nog bij de Albert Heijn in Genemuiden en ga ik met plezier naar school.
+                        <p> Mijn naam is Yanick de Wit en ik ben een vrolijk jonge van 19 jaar. Ik ben geboren in het kleine stadje Genemuiden in Overijssel. Ik woon nog steeds hier samen met mijn vader, moeder en broertje van 14. Sinds jonge leeftijd mocht ik graag bezig zijn met computers en software en zo kom ik ook op de opleiding Software Developer bij LandstedeMBO Zwolle. Mijn hobbies zijn gamen, met vrienden uitgaan/stappen, auto's, autosport en computers/ICT. Simracen vind ik ook erg mooi om te doen en zo speel ik dan ook vaak toernooien in games zoals Assetto Corsa Competizione. Verder werk ik ook nog bij de Albert Heijn in Genemuiden en ga ik met plezier naar school.
                         </p>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                         <img class="card-img-top" src="../images/pucunia.png" alt="Card image" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Pecunia - Wallet</h4>
-                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                            <p class="card-text">Pecunia is een digitale wallet waarin je je uitgaven in inkomsten in kan zetten met een paar leuke grafieken en statestieken</p>
                             <div class="text-center">
                                 <a href="https://github.com/YanickdeWit04/Pecunia" class="btn btn-success">Github</a>
                                 <a href="#" class="btn btn-success">Live versie niet beschikbaar</a>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 mt-4">
+                {{-- <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
                         <img class="card-img-top" src="images/placehold.png" alt="Card image" style="width:100%">
                         <div class="card-body">
@@ -122,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 {{-- <div class="col-lg-4 mt-4">
                     <div class="card">
                         <img class="card-img-top" src="../images/Mastermind-Beginscherm.jpg" alt="Card image" style="width:100%">
